@@ -1,0 +1,40 @@
+  514  git config --list
+  515  git config --list
+  516  clear
+  517  git remote add origin "https://github.com/sravan5288/GIT.git"
+  518  cd .git
+  519  cat config 
+  520  cat description 
+  521  cat HEAD 
+  522  clear
+  523  cd ..
+  524  ls -al
+  525  git pull origin master
+  526  ls
+  527  cat README.md 
+  528  cd .git/
+  529  ls
+  530  cat HEAD 
+  531  cat FETCH_HEAD 
+  532  git status
+  533  cd ..
+  534  git status
+  535  touch HomePage.java AboutUs.java
+  536  ls
+  537  git status
+  538  git add *
+  539  git status
+  540  git commit -a -m "Added Homepage and AboutUs pages"
+  541  git status
+  542  git push origin master
+  543  git config --user.name "sravan5288"
+  544  git config --global user.name "sravan5288"
+  545  git config --global user.email "sravankumar5288@gmail.com"
+  546  git config --list
+  547  git push origin master
+  548  cat .git/FETCH_HEAD 
+  549  git pull origin master
+  550  cat .git/FETCH_HEAD 
+  551  history
+  552  history 40
+  553  history 40 > history.txt

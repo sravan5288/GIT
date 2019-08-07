@@ -1,3 +1,49 @@
+  459  mkdir GIT582019
+  460  cd GIT582019/
+  461  ls
+  462  pwd
+  463  git | grep init
+  464  git
+  465  git | grep pull
+  466  git | grep init
+  467  git init
+  468  ls
+  469  ls -al
+  470  touch git
+  471  ls
+  472  mv git git_new
+  473  ls
+  474  pwd
+  475  cp git_new /c/Users/office/Desktop
+  476  ls
+  477  rm git_new
+  478  ls
+  479  vi git
+  480  vi git
+  481  cat git
+  482  vi git
+  483  top
+  484  ls -al git
+  485  who
+  486  whoami
+  487  uname -a
+  488  LS
+  489  UNAME -A
+  490  history
+  491  ls
+  492  cat git | grep is
+  493  cat git | grep abc
+  494  ls -al git
+  495  chmod 0777 git
+  496  ls -al git
+  497  ssh-keygen
+  498  ssh-keygen
+  499  cd /c/Users/office/.ssh
+  500  ls
+  501  history
+ 
+ 
+ 
   514  git config --list
   515  git config --list
   516  clear

@@ -38,3 +38,61 @@
   551  history
   552  history 40
   553  history 40 > history.txt
+
+------------------12-Aug-------------------------------
+
+  509  ssh-keygen
+  510  cat /c/Users/office/.ssh/id_rsa.pub
+  511  git config --list | grep user
+  512  git config --list
+  513  git config --list |grep user
+  514  git config --help
+  515  git config --help
+  516  ls -al
+  517  cd .git
+  518  ls
+  519  cat FETCH_HEAD
+  520  cat config
+  521  clear
+  522  cd ..
+  523  git status
+  524  touch git
+  525  git status
+  526  git add .
+  527  git status
+  528  git commit -m "file added"
+  529  cleaar
+  530  clear
+  531  git log
+  532  git log -1
+  533  git log -2
+  534  got log --oneline
+  535  git log --oneline
+  536  git checkout 408f092
+  537  git log --oneline
+  538  git status
+  539  git branch
+  540  clear
+  541  git branch
+  542  git checkout master
+  543  git log --oneline
+  544  git branch
+  545  git branch
+  546  git log --oneline | grep HEAD
+  547  git log --oneline
+  548  git branch DEV
+  549  git branch
+  550  git checkout -b DEV
+  551  git checkout  DEV
+  552  git status
+  553  git log --oneline
+  554  touch DEV && git add . && git commit -m "DEV branch Started"
+  555  git log --oneline
+  556  git checkout -b Feature_dev
+  557  git log --oneline
+  558  git branch
+  559  git checkout -b loke-branch
+  560  git branch -D loke-branch
+  561  git checkout Feature_dev
+  562  git branch -D loke-branch
+----------------------------------------END---------------------

@@ -142,3 +142,90 @@
   561  git checkout Feature_dev
   562  git branch -D loke-branch
 ----------------------------------------END---------------------
+
+
+--------------------13-Aug-2019---------------------
+
+ 500  touch 1 1 1 1
+  501  ls
+  502  touch 1
+  503  ls
+  504  mv 1 katakoda
+  505  vi katakoda
+  506  git add .
+  507  git commit -m "katakoda"
+  508  git push origin master
+  509  cat katakoda
+  510  git branch
+  511  cat .git/config
+  512  git push origin DEV
+  513  git log --oneline
+  514  git checkout -b DEV
+  515  git log --oneline
+  516  git checkout DEV
+  517  git log --oneline
+  518  git  cherry-pick cd71859
+  519  git log --oneline
+  520  git merge master
+  521  git status
+  522  cat history.txt
+  523  git log --oneline
+  524  git checkout master
+  525  git log --oneline
+  526  git rebase DEV
+  527  git log --oneline
+  528  clear
+  529  git fetch origin master
+  530  git pull origin master
+  531  ls
+  532  git push origin master
+  533  clear
+  534  touch build.sh
+  535  git add .
+  536  ls
+  537  git status
+  538  git statsh
+  539  git stash
+  540  git satus
+  541  git status
+  542  git pull origin master
+  543  git stash --liost
+  544  git stash list
+  545  clear
+  546  git stash list
+  547  git stash apply stash@{0}
+  548  git stash list
+  549  git stash --list
+  550  git stash pop stash@{0}
+  551  git status
+  552  cat .git/FETCH_HEAD
+  553  git log --oneline
+  554  git reset 6f6a52f
+  555  git status
+  556  git reset 9fcf4e5
+  557  git status
+  558  git reset --hard
+  559  git status
+  560  git reset 6f6a52f
+  561  git status
+  562  touch 2 3 4
+  563  git add .
+  564  git status
+  565  git reset --hard
+  566  git status
+  567  ls
+  568  touch 2 3 4
+  569  git add .
+  570  git status
+  571  git reset --soft
+  572  git status
+  573  git reset --mixed
+  574  git status
+  575  git log --oneline
+  576  git diff 6f6a52f 04c53db
+  577  ls
+  578  git diff history.txt
+  579  history
+
+
+  ---------------------------END----------
